@@ -1,0 +1,37 @@
+.container {
+    border: 1px green solid;
+    height: 100vh;
+    width: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.red .blue .yellow .aqua{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+    order: -1;
+}
+
+.blue {
+    background-color: blue;
+    align-self: flex-end;
+}
+
+.aqua {
+    background-color: blueviolet;
+    order: -2;
+}
