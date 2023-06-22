@@ -9,7 +9,7 @@
     justify-content: center;
 }
 
-.red .blue .yellow .aqua .orange{
+.red .blue .yellow .aqua .orange .pink{
     height: 200px;
     width: 200px;
     display: flex;
@@ -38,4 +38,8 @@
 
 .orange {
     background-color: orange;
+}
+
+.pink {
+    background-color: pink;
 }
