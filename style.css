@@ -9,7 +9,7 @@
     justify-content: center;
 }
 
-.red .blue .yellow .aqua{
+.red .blue .yellow .aqua .orange{
     height: 200px;
     width: 200px;
     display: flex;
@@ -34,4 +34,8 @@
 .aqua {
     background-color: blueviolet;
     order: -2;
+}
+
+.orange {
+    background-color: orange;
 }
